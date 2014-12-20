@@ -1,5 +1,14 @@
-def checkio(a,f):
+colors        = ['blue', 'green', 'red', 'white', 'yellow']
+pets          = ['cat', 'bird', 'dog', 'fish', 'horse']
+potables      = ['beer', 'coffee', 'milk', 'tea', 'water'] 
+cigarettes    = ['Blue Master', 'Dunhill', 'Pall Mall', 'Prince' , 'blend']
+person        = ['Brit', 'Dane', 'German', 'Norwegian', 'Swede'] 
+num          =  [1,2,3,4,5]
+
+def checkio(data,question):
   pass
-  return None
+  return "Answer"
 if __name__ == '__main__':
-  aseert checkio(2,2)==None # Some Test 
+  aseert checkio(['Brit-red','Swede-dog','Dane-tea','green-coffe','Pall Mall-bird',
+                  'yellow-Dunhill','milk-3','Norwegian-1','Blue Master-beer',
+                  'German-Prince','Norwegian-blue','green-4','white-5','water-cat','2-horse','Dunhill-cat'],['fish-colors'])

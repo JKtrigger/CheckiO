@@ -30,4 +30,3 @@ if __name__ == '__main__':
                     'bird-Brit','4-green','Winfield-beer',
                     'Dane-blue','5-dog','blue-horse',
                     'yellow-cat','Winfield-Swede','tea-Marlboro'],['Norwegian-potables'])=='water' #3st test
-
